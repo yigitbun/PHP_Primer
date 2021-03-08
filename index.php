@@ -7,7 +7,32 @@
     <title>PHP Primer - Index</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h2>Second line</h2>
+    <!-- Basic HTML -->
+    <h1>Hello Html</h1>
+
+    <?php 
+        /*Printing to HTML using echo */
+        echo ' Hello PHP!';
+        echo '<br/>';
+
+        // You can echo HTML tags
+        echo ' Second Line';
+        echo '<br/>';
+        
+    ?>
+
+    <?php 
+        // declare wariable
+        $name = 'Bünyamin Yigit';
+        $age = 31;
+
+        // echo variable
+        echo $name;
+        echo '<h1>My Name is: '.$name.'</h1>';
+        echo '<h1>My Age is: '.$age.'</h1>';
+
+        // Echo using double quotes and interpolation
+        echo "<h1>My Name is: $name </h1>"
+    ?>
 </body>
 </html>
