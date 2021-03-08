@@ -7,16 +7,36 @@
     <title>PHP Primer - If Statement</title>
 </head>
 <body>
-    <h2>Follow each link to the page example</h2>
-    <ul>
-        <li><a href="array.php">Simple Array and Printouts</a></li>
-        <li><a href="forloop.php">Simple Array and Printouts</a></li>
-        <li><a href="dowhileloop.php">Simple Array and Printouts</a></li>
-        <li><a href="whileloop.php">Simple Array and Printouts</a></li>
-        <li><a href="ifstatement.php">Simple Array and Printouts</a></li>
-        <li><a href="switchstatement.php">Simple Array and Printouts</a></li>
-    </ul>
-    <!-- Bu notu ibrahim abi icin düselim -->
-    <!-- stage deneme -->
+    <h3 style="color: red"></h3>
+    <?php 
+        // An if statement that will carry out an action based on the value of the variable.
+
+        echo '<h2>If Statements</h2>';
+
+        $grade = 70;
+
+        if($grade >= 50){
+            echo '<h3 style="color: green">You have passed</h3>';
+        }
+        else {
+            echo '<h3 style="color: red">You have failed</h3>';
+        }
+
+        $grade = 'C';
+        // If-Else If-Else
+
+        if($grade == 'A'){
+            echo '<h2>YOU ARE A SUPERSTAR!</H2>';
+
+        }
+        elseif($grade == 'B'){
+            echo '<h2>YOU DID WELL!</h2>';
+        }
+        else{
+            echo '<h2>YOU HAVE FAILED</h2>';
+        }
+
+
+    ?>
 </body>
 </html>

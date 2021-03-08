@@ -1,0 +1,5 @@
+.PHP environment was set up using XAMPP
+.Composer installed
+.VS Code(Already installed)
+.Github(Already installed)
+.Heroku account created

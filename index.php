@@ -7,6 +7,15 @@
     <title>PHP Primer - Index</title>
 </head>
 <body>
+<h2>Follow each link to the page example</h2>
+    <ul>
+        <li><a href="array.php">Simple Array and Printouts</a></li>
+        <li><a href="forloop.php">Simple for loop</a></li>
+        <li><a href="dowhileloop.php">Simple Do While</a></li>
+        <li><a href="whileloop.php">Simple while loop</a></li>
+        <li><a href="ifstatement.php">Simple If Statement</a></li>
+        <li><a href="switchstatement.php">Simple Switch Statement</a></li>
+    </ul>
     <!-- Basic HTML -->
     <h1>Hello Html</h1>
 
