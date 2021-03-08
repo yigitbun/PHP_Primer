@@ -17,6 +17,6 @@
         <li><a href="switchstatement.php">Simple Array and Printouts</a></li>
     </ul>
     <!-- Bu notu ibrahim abi icin düselim -->
-    
+    <!-- stage deneme -->
 </body>
 </html>
