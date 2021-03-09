@@ -9,6 +9,7 @@
 <body>
     <h3 style="color: red"></h3>
     <?php 
+    
         // An if statement that will carry out an action based on the value of the variable.
 
         echo '<h2>If Statements</h2>';
