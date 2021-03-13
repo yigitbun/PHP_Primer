@@ -1,12 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HP Primer - String Manipulation</title>
-</head>
-<body>
+    <?php 
+        $title = "String Manipulations";
+        include 'includes/header.php';
+    ?>
     <h1>PHP String Manipulation</h1>
     <?php 
     // Concatination
@@ -45,6 +40,4 @@
 
 
     ?>
-    
-</body>
-</html>
+    <?php require 'includes/footer.php' ?>
