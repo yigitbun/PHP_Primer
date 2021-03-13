@@ -15,7 +15,9 @@
         <li><a href="ifstatement.php">Simple If Statement</a></li>
         <li><a href="switchstatement.php">Simple Switch Statement</a></li>
         <li><a href="stringmanip.php">String Manipulatin</a></li>
-        <li><a href="datetimemanip.php">String Date and Time Manipulation</a></li>
+        <li><a href="datetimemanip.php">Simple Date and Time Manipulation</a></li>
+        <li><a href="functions.php">functions</a></li>
+        <li><a href="default_copy.php">deneme</a></li>
     </ul>
     <!-- Basic HTML -->
     <h1>Hello Html</h1>
